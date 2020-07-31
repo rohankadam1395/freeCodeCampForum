@@ -1,0 +1,173 @@
+
+#main{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-left: 3%;
+padding-right: 3%;
+min-height: 100vh;
+background-color: lightskyblue;
+font-weight: 400;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+text-decoration: underline;
+}
+h1{
+    text-align: center;
+}
+ol{
+    display: flex;
+    flex-direction: column;
+padding:0px;
+}
+li{
+    display: flex;
+
+    justify-content: center;
+margin-bottom: 1%;
+
+background-color:rgb(210, 233, 248);
+border-radius:1.2em;
+border: 2px ridge rgb(210, 233, 248);
+;
+}
+
+.views{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 10%;
+text-align: center;
+justify-content: center;
+align-items: center;
+    border-left: 2px ridge rgb(210, 233, 248);
+    padding: 0.8%;
+}
+.time{
+    display: flex;
+justify-content: center;
+align-items: center;
+    width: 10%;
+    text-align: center;
+    border-left: 2px ridge rgb(210, 233, 248);
+
+}
+.replyCount{
+    display: flex;
+justify-content: center;
+align-items: center;
+        text-align: center;
+    width: 10%;
+    border-left: 2px ridge rgb(210, 233, 248);
+
+
+}
+.title{
+    display: flex;
+    align-items: center;
+
+    padding-left: 1%;
+word-break: break-all;
+    width: 50%;
+    border-left: 2px ridge rgb(210, 233, 248);
+
+}
+.title:hover{
+    background-color: rgb(188, 228, 253);
+}
+
+.profile{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+        /* justify-content: center; */
+    flex-wrap: wrap;
+    width: 20%;
+    border-left: 2px ridge rgb(210, 233, 248);
+padding-left: 1%;
+
+
+
+}
+.profileImages{
+
+border-radius: 50%;
+margin-right: 0.3em;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+p{
+    margin: 0;
+}
+
+.numbering{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:2em;
+}
+
+.replyCountTitle{
+
+    word-break: break-all;
+border: none;
+}
+.viewsTitle{
+    word-break: break-all;
+    border: none;
+
+}
+
+.timeTitle{    
+    border: none;
+
+    word-break: break-all;
+
+}
+.profileTitle{
+    justify-content: center;
+border: none;
+/* text-orientation: upright;
+writing-mode: vertical-rl; */
+}
+
+.titleHead{
+    border: none;
+
+}
+.mob{
+   display: none; 
+}
+
+@media(max-width:600px){
+    #main{
+    }
+
+   .desktop{
+       display: none;
+   }
+   .mob{
+       display: inline;
+   }
+   
+   .profile{
+       justify-content: center;
+
+   }
+
+}
+
+
+
